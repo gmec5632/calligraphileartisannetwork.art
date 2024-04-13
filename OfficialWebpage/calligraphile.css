@@ -1,0 +1,427 @@
+body {
+    
+    font-family: dancing script, gabriola, cursive, georgia, sans-serif;
+    font-size: 115%;
+    background-color: #e3dec1;
+    background-size: 120%;
+    background: rgba(227, 222, 193);
+    background-image: url(gallery_SVG/TrianglePattern.svg);
+    clear: both;
+    border: purple;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: purple;
+    margin: 0;
+    
+}
+
+nav {
+    width: 100%;
+    background-color:rgba(250, 249, 242);
+    background: 0;
+    background-image: url(galleryImages/Watercolor_headerpage.jpg);
+    clear: both;
+    margin: 0 auto;
+    padding: 10px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+nav ul {
+    text-align: center;
+    
+}
+#navigation ul {
+    padding: 0 20px 0 0;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    height:80px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav li {
+    display: inline-block;
+}
+#navigation li {
+    padding: 10px;
+}
+
+nav li a:link {
+    color: black;
+    font-family: gabriola, dancing script, cursive; sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#e3e3e3;
+    box-shadow: 10px 10px 10px, rgba(0,0,0,.1);
+}
+nav li a:visited {
+    color: #676767;
+}
+nav li a:hover {
+    color: hotpink;
+}
+nav li a:active {
+    color: blue;
+    background-color:#4467f7;
+}
+#navigation a {
+    font-family: cursive; sans-serif; 
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#navigation a: hover{
+    color: aqua;
+}
+
+#nav id {
+    font-family: georgia, sans-serif, gabriola, cursive;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+#link {
+    font-family: gabriola, belina, cursive;
+    color: whitesmoke;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+/* note: Data was changed to advance the website. There was no need for the same box div. I added data from different labs to aquire better usage of space. As I built the webpage the shifting of the webpage got weirder. I felt the webpage needed a bit more structure with the typography hierchy you demonstrated. At the end of this project, I had more issues with the flex box. I like this version of how the code is set up. After working with this code for a long time, I decided to do the box image process instead. */
+
+h1 {
+    font-size: 3.2em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2em; 
+}
+div{
+    font-size: 2em;
+}
+p {
+    font-size: 1em;
+}
+footer{
+    font-size: .5em;
+}
+
+
+
+/*----------*/
+
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+}
+footer {
+    font-size: 10px;
+}
+/*-------*/
+
+
+h1 {
+    font-size: 7vw;
+}
+h2 {
+    font-size: 3vw;
+}
+div {
+    font-size: 3vw;
+}
+p {
+    font-size: 2vw;
+}
+
+nav {
+    font-size: 1.8vw;
+}
+
+
+
+
+/*----------*/
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header,
+#main,
+#aside,
+#nav,
+#ul,
+#a,
+#flex-wrap,
+#img,
+#svg,
+#link,
+#style,
+#gallery,
+
+#header {
+     background-color: 0;
+  }
+#header h1{
+    text-align: center;
+    float: center;
+    width: 500px;
+    height: 150px;
+    color: azure;
+    margin: 0;
+}
+#header h2{
+    float: center;
+    width: auto;
+    color: #ebf5d3;
+    margin: 0;
+}
+#header h3{
+    background-image: 0;
+    font-size: 60%;
+    text-align: center;
+    float: center;
+    width: 600px;
+    height: 150px;
+    margin: 0;
+}
+
+#header {
+   flex-direction: column-reverse;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   float: center;
+   width: auto;
+   background-color: #9e056b;
+   font-size: 75%;
+   font-weight: 400;
+   font-style: normal;
+   color: white;
+   font-family: dancing script, belina, gabriola, cursive;
+}
+#header img{
+    width: 100px;
+}
+
+/*-----------*/
+
+#main {
+    background-color: #6cccb1;
+    color: darkblue;
+    font-size: 60%;
+    clear: both;
+    float: center;
+    width: 100%;
+    
+}
+#main img{
+    width: 500px;
+    
+}
+
+img {
+    max-width:500%;
+    
+}
+
+.trianglepattern {
+    width: 100%;
+    height: 70%; 
+}
+.webpaintedhorse {
+    width: 100%;
+    height: 70%;
+}
+.crafstmanship-banner{
+    width: 100%;
+    height: 70%;
+}
+.Pen-photos {
+    width: 100%;
+    height: 70%;
+}
+
+/*----------*/
+
+
+#aside {
+    background-color: darkslateblue;
+    text-align: center;
+    clear: both;
+    margin: auto;
+}
+#aside img{
+    background-image: url(gallery_SVG/WebPaintedHorse.svg);
+    height: auto;
+    width: auto;
+    border: 1px white solid;
+    text-align: center;
+    margin: auto;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: 0;
+    align-items: center;
+}
+
+/*----------*/
+
+.biography {
+    width: auto;
+    height: auto;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    justify-content: 0;
+    align-items: center;
+    
+}
+.biography img {
+    height: auto;
+    width: 15%;
+    border: 1px white solid;
+    border-radius: 20%;
+}
+
+/*----------*/
+
+.Image1 {
+    width: 5%;
+    height: 5%;
+}
+.Image2 {
+    width: 5%;
+    height: 5%;
+}
+.Image3 {
+    width: 5%;
+    height: 5%;
+}
+.Image4 {
+    width: 5%;
+    height: 5%;
+}
+.Image5 {
+    width: 5%;
+    height: 5%;
+}
+.Image6 {
+    width: 5%;
+    height: 5%;
+}
+.Image7 {
+    width: 5%;
+    height: 5%;
+}
+.BrushCalligraphyNow {
+    width: 5%;
+    height: 5%;
+}
+
+.Box Images {
+    background-color: #02183b;
+    color: blue;
+    text-align: center;
+    padding: 5px;
+    border: yellow solid 1px;
+    height: 10px;
+    width: auto;
+    line-height: 10px;
+}
+
+#galleryCredits {
+    width: 50%;
+    margin: 5px auto;
+    padding: 20px 0;
+    border: yellow 3px solid;
+    text-align: center;
+    font-family: Georgia, Dancing Script, sans-serif;
+    font-size: 16px;
+}
+.galleryImages{
+    background-color: white;
+    color: #76e8e0;
+    text-align: center;
+    padding: 0px;
+    border: lavender solid 3px;
+    height: 50%;
+    line-height: 50%;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 20px 0;
+    border: rgb(0, 0, 0,) solid 6px;
+    clear: both;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+}
+
+@media (max-width: 300px){
+    #gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 200px) {
+    #gallery {
+        grid-template-columns: 1fr;
+    }
+    #wrapper {
+        width: 100%;
+    }
+#Handmade Quills, #Resources, #Artisan Quills {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+/*----------*/
+
+#footer {
+    background-color: lavender;
+    font-size: 50%;
+    font-weight: 500;
+    font-style: normal;
+    color: darkblue;
+    text-align: center;
+    padding: 0px;
+}

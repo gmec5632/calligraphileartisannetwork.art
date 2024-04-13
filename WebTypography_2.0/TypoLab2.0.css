@@ -1,0 +1,191 @@
+body {
+    background: black;
+    font-family: dancing script, belina, gabriola, cursive, sans-serif; 
+    font-family: Peralta, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 130%;
+    margin: 0;
+}
+
+nav {
+    flex-wrap: wrap-reverse;
+    text-align: right;
+    font-size: 75%;
+    width: 100%;
+    background-color: clear;
+    clear: both;
+    margin: 0 auto;
+    padding: 8px;
+    box-sizing: border-box;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+nav ul {
+    text-align: right;
+    font-size: 50%;
+    
+}
+nav li {
+    display: inline-block;
+    text-align: right;
+}
+
+nav li a:link {
+    flex-wrap: wrap
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#e3e3e3;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+nav li a:visited {
+    color: purple;
+}
+nav li a:hover {
+    color: red;
+}
+nav li a:active {
+    color: yellowgreen;
+    background-color: darkblue;
+}
+
+/* em is relative to the parent text size. For example, I can change the body font-size and everything measured in ems adjusts, too. */
+
+/* if the parent size is 100% of the default HTML text sizes, then 1em = 16pixels. If the parent size is 200% then 1em = 32pixels. */
+
+
+h1 {
+    font-size: 3.5em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2em; 
+}
+
+h4 {
+    font-size: 1.5em; 
+}
+footer{
+    font-size: .5em;
+}
+
+
+/*pixels are fixed sizes, popular, but less responsive.*/
+
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+p {
+    font-size: 14px;
+}
+footer {
+    font-size: 10px;
+}
+/*viewport width (vw) can cause the text to change size relative to the device viewport.*/
+
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-size: 2.8vw;
+}
+div {
+    font-size: 2.5vw;
+}
+
+
+
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+#header,
+#main,
+#aside,
+#nav,
+#ul,
+#a,
+#li,
+#style,
+#flex-wrap,
+#footer {
+    text-align: center;
+    padding: 10px;
+}
+/* note: line-height is set to 200px to force all of the wireframe boxes to stay open in height, and it's a quick way to vertically center a single line of text. */
+
+#header {
+    background-color: #9e056b;
+    font-size: 75%;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-family: dancing script, belina, gabriola, cursive;
+}
+#main {
+    background-color: #01730e;
+}
+#aside {
+    background-color: #0404bf;
+}
+#footer {
+    background-color: #014745;
+    font-size: 50%;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+}
+.quoteText {
+    font-family: gabriola, belina, cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #65369e;
+    color: #def6fa;
+    text-align: center;
+    padding: 10px;
+}
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+

@@ -1,0 +1,96 @@
+body {
+    background: #02542b;
+    font-family: Georgia, Gabriola, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header,
+#main,
+#aside,
+#footer {
+    padding: 30px;
+}
+
+#main {
+    background-color: #02542b;
+}
+
+#aside {
+    background-color: #0f3453;
+}
+
+#footer {
+    background-color: #544502;
+}
+/* -------------- nav section ----------- */
+#navigation ul {
+    padding: 0 30px 0 0;
+    list-style-type: none;
+/* put your flex properties here */
+    display:flex;
+    flex-direction: row;
+    height:80px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+#navigation li {
+    padding: 10px;
+}
+#navigation a {
+    color: white;
+    text-decoration: none;
+}
+#navigation a:hover {
+    color: deeppink;   
+}
+
+/* ---- header section ----- */
+#header {
+    background-color: #022e54;
+    float: center;
+    width: auto;
+}
+#header h1 {
+    color: #DFFFA4;
+    margin: 0;
+}
+#header {
+/* put your flex properties here to center the header content */
+    flex-direction: column-reverse;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header img {
+    width: 500px;
+}
+
+/*--- biography section -----*/
+.biography {
+    border: 1px black solid;
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+    /* put your flex properties here to position the images in the biography section */
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.biography img {
+    width: 20%;
+    border: 1px white solid;
+    border-radius: 15%;
+} 
+
+
